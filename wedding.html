@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>טיימר עד 17/11/2025</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* טיימר בראש הדף */
+        .timer {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: row-reverse;
+            /* סדר משמאל לימין */
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 0 0 20px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .unit {
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .num {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .label {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* הסרטון */
+        .video-container {
+            width: 100%;
+            height: calc(100vh - 80px);
+            /* גובה מסך פחות גובה הטיימר */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- טיימר בראש -->
+    <div class="timer">
+        <div class="unit">
+            <div class="num" id="days">00</div>
+            <div class="label">ימים</div>
+        </div>
+        <div class="unit">
+            <div class="num" id="hours">00</div>
+            <div class="label">שעות</div>
+        </div>
+        <div class="unit">
+            <div class="num" id="minutes">00</div>
+            <div class="label">דקות</div>
+        </div>
+        <div class="unit">
+            <div class="num" id="seconds">00</div>
+            <div class="label">שניות</div>
+        </div>
+    </div>
+
+    <!-- סרטון מתחת לטיימר -->
+    <div class="video-container">
+        <iframe
+            src="https://www.canva.com/design/DAGxDsHKL_I/RUX5fMBVJU82hl_c9Y4GDw/watch?embed&autoplay=1&loop=1&muted=1&controls=0"
+            allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        const target = new Date(2025, 10, 17, 0, 0, 0).getTime(); // 17/11/2025
+        const daysEl = document.getElementById("days");
+        const hoursEl = document.getElementById("hours");
+        const minutesEl = document.getElementById("minutes");
+        const secondsEl = document.getElementById("seconds");
+
+        function pad(n) { return String(n).padStart(2, '0'); }
+
+        function updateTimer() {
+            const now = new Date().getTime();
+            let diff = target - now;
+            if (diff < 0) diff = 0;
+
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            daysEl.textContent = pad(d);
+            hoursEl.textContent = pad(h);
+            minutesEl.textContent = pad(m);
+            secondsEl.textContent = pad(s);
+        }
+
+        setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
+</body>
+
+</html>
