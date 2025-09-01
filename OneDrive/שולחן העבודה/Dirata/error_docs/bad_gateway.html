@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="refresh" content="10" >
+  <title>VANGUS - רענון</title>
+  <link rel="stylesheet" href="/error_docs/styles.css">
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900');
+* {
+font-family: 'Heebo', sans-serif;
+}
+body {
+direction:rtl;
+background:#fff;
+}
+</style>
+<script>
+var timeleft = 10;
+var downloadTimer = setInterval(function(){
+  document.getElementById("progressBar").value = 10 - --timeleft;
+  if(timeleft <= 0)
+    clearInterval(downloadTimer);
+},1000);
+</script>
+<link href="https://vangus.co.il/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<div style="
+margin: 0 auto;
+width: 100%;
+text-align: center;
+margin-top: 40px;
+">
+<img src="https://vangus.co.il/assets/images/try-logo-black.png" style="width:150px;">
+</div>
+<br>
+<div class="page" style="
+text-align: center;
+background: #fff;
+max-width: 400px;
+margin: 0 auto;
+padding-top: 5px;
+padding-bottom: 30px;
+border: 1px dashed #ebf0f3;
+border-radius: 10px;">
+  <div class="main">
+    <h1 style="font-weight:900;font-size:45px;color:#031b4e;margin-bottom: 5px;">רענון</h1>
+    <div class="error-code;" style="color:rgba(3, 27, 78, 0.56);font-weight:400;">קוד מס' 502</div>
+    
+    <p class="lead" style="color:rgba(3, 27, 78, 0.56)">שרתינו מבצעים רענון מהיר, נחזור בשניות הקרובות.</p>
+	    
+
+	<progress value="0" max="10" id="progressBar"></progress>
+	<p class="lead" style="color:rgba(3, 27, 78, 0.56);font-size: 12px;">הדף ירענן את עצמו עוד 10 שניות.</p>
+   
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,262 @@
+0000.003 () Opened log file at time: Thu, 30 Jan 2025 09:54:54 +0000 on https://dirata.co.il
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.1.0 WP: 6.7.1 PHP: 8.1.31 (litespeed, Linux c4-vm-restored 3.10.0-962.3.2.lve1.5.80.el7.x86_64 #1 SMP Tue May 2 18:31:48 UTC 2023 x86_64) MySQL: 10.2.44-MariaDB-cll-lve (max packet size=1073741824) WPLANG: he_IL Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 6.4M | 8M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 14973.7 MB
+0000.016 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Thu, 30 Jan 2025 09:54:56 +0000 on https://dirata.co.il
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.1.0 WP: 6.7.1 PHP: 8.1.31 (litespeed, Linux c4-vm-restored 3.10.0-962.3.2.lve1.5.80.el7.x86_64 #1 SMP Tue May 2 18:31:48 UTC 2023 x86_64) MySQL: 10.2.44-MariaDB-cll-lve (max packet size=1073741824) WPLANG: he_IL Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 5.2M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 14973.6 MB
+0000.004 () Ensuring WP_Filesystem is setup for a restore
+0000.005 () WP_Filesystem is setup and ready for a restore
+0000.007 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_estatik_fb_fields","wp_estatik_fb_sections","wp_pmpro_discount_codes","wp_pmpro_discount_codes_levels","wp_pmpro_discount_codes_uses","wp_pmpro_groups","wp_pmpro_membership_levelmeta","wp_pmpro_membership_levels","wp_pmpro_membership_levels_groups","wp_pmpro_membership_ordermeta","wp_pmpro_membership_orders","wp_pmpro_memberships_categories","wp_pmpro_memberships_pages","wp_pmpro_memberships_users","wp_pmpro_subscriptionmeta","wp_pmpro_subscriptions"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.008 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.016 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.017 () Entity: db
+0000.017 () restore_backup(backup_file=backup_2025-01-30-0940_estate_4243cc5e71ce-db.gz, type=db, info=a:0:{}, last_one=)
+0000.017 () Unpacking backup... (backup_2025-01-30-0940_estate_4243cc5e71ce-db.gz, 0.4 Mb)
+0000.017 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.018 () Database successfully unpacked
+0000.018 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.018 () Using direct MySQL access; value of use_mysqli is: 1
+0000.019 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.041 () Max packet size: 1024 MB
+0000.041 () Entering maintenance mode
+0000.041 () מעבר למצב תחזוקה&#8230;
+0000.048 () Backup of: http://estate.local
+0000.059 () Content URL: http://estate.local/wp-content
+0000.059 () Uploads URL: http://estate.local/wp-content/uploads
+0000.059 () Old table prefix: wp_
+0000.059 () Old ABSPATH: C:\Users\shale\Local Sites\estate\app\public/
+0000.059 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.059 () Site information: multisite=0
+0000.059 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.060 () New table prefix: 0p_
+0000.062 () Processing table (InnoDB): wp_options - will restore as: 0p_options
+0000.117 () Atomic restore: dropping original table (JTujPt_options)
+0000.124 () Atomic restore: renaming new table (0p_options) to final table name (JTujPt_options)
+0000.127 () Restoring prior UD configuration (table: JTujPt_options; keys: 102)
+0000.168 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.168 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.168 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.168 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.169 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.169 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.177 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.181 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.182 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.194 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.195 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.237 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.238 () Options table fields changed OK
+0000.242 () Search and replacing table: JTujPt_options: rows: 326
+0000.274 () Incomplete object detected in database: stdClass; Search and replace will be skipped for these entries
+0000.281 () Incomplete object detected in database: WpOrg\Requests\Utility\CaseInsensitiveDictionary; Search and replace will be skipped for these entries
+0000.292 () Processing table (InnoDB): wp_users - will restore as: 0p_users
+0000.302 () Atomic restore: dropping original table (JTujPt_users)
+0000.306 () Atomic restore: renaming new table (0p_users) to final table name (JTujPt_users)
+0000.310 () Search and replacing table: JTujPt_users: rows: 1
+0000.311 () Processing table (InnoDB): wp_usermeta - will restore as: 0p_usermeta
+0000.317 () Atomic restore: dropping original table (JTujPt_usermeta)
+0000.321 () Atomic restore: renaming new table (0p_usermeta) to final table name (JTujPt_usermeta)
+0000.323 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.324 () Usermeta table fields changed OK
+0000.325 () Search and replacing table: JTujPt_usermeta: rows: 31
+0000.326 () Processing table (InnoDB): wp_commentmeta - will restore as: 0p_commentmeta
+0000.331 () Atomic restore: dropping original table (JTujPt_commentmeta)
+0000.334 () Atomic restore: renaming new table (0p_commentmeta) to final table name (JTujPt_commentmeta)
+0000.337 () Search and replacing table: JTujPt_commentmeta: rows: 0
+0000.337 () Processing table (InnoDB): wp_comments - will restore as: 0p_comments
+0000.345 () Atomic restore: dropping original table (JTujPt_comments)
+0000.347 () Atomic restore: renaming new table (0p_comments) to final table name (JTujPt_comments)
+0000.351 () Search and replacing table: JTujPt_comments: rows: 1
+0000.352 () Processing table (InnoDB): wp_links - will restore as: 0p_links
+0000.357 () Atomic restore: dropping original table (JTujPt_links)
+0000.361 () Atomic restore: renaming new table (0p_links) to final table name (JTujPt_links)
+0000.364 () Search and replacing table: JTujPt_links: rows: 0
+0000.364 () Processing table (InnoDB): wp_postmeta - will restore as: 0p_postmeta
+0000.371 () Atomic restore: dropping original table (JTujPt_postmeta)
+0000.374 () Atomic restore: renaming new table (0p_postmeta) to final table name (JTujPt_postmeta)
+0000.377 () Search and replacing table: JTujPt_postmeta: rows: 0
+0000.377 () Processing table (InnoDB): wp_posts - will restore as: 0p_posts
+0000.385 () Atomic restore: dropping original table (JTujPt_posts)
+0000.388 () Atomic restore: renaming new table (0p_posts) to final table name (JTujPt_posts)
+0000.391 () Skipping search/replace on GUID column in posts table
+0000.391 () Search and replacing table: JTujPt_posts: rows: 33
+0000.394 () Processing table (InnoDB): wp_term_relationships - will restore as: 0p_term_relationships
+0000.400 () Atomic restore: dropping original table (JTujPt_term_relationships)
+0000.403 () Atomic restore: renaming new table (0p_term_relationships) to final table name (JTujPt_term_relationships)
+0000.405 () Skipping this table: data in this table (JTujPt_term_relationships) should not be search/replaced
+0000.405 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 0p_term_taxonomy
+0000.411 () Atomic restore: dropping original table (JTujPt_term_taxonomy)
+0000.415 () Atomic restore: renaming new table (0p_term_taxonomy) to final table name (JTujPt_term_taxonomy)
+0000.418 () Search and replacing table: JTujPt_term_taxonomy: rows: 93
+0000.420 () Processing table (InnoDB): wp_termmeta - will restore as: 0p_termmeta
+0000.427 () Atomic restore: dropping original table (JTujPt_termmeta)
+0000.431 () Atomic restore: renaming new table (0p_termmeta) to final table name (JTujPt_termmeta)
+0000.434 () Search and replacing table: JTujPt_termmeta: rows: 58
+0000.436 () Processing table (InnoDB): wp_terms - will restore as: 0p_terms
+0000.443 () Atomic restore: dropping original table (JTujPt_terms)
+0000.446 () Atomic restore: renaming new table (0p_terms) to final table name (JTujPt_terms)
+0000.449 () Search and replacing table: JTujPt_terms: rows: 93
+0000.451 () Processing table (InnoDB): wp_estatik_fb_fields - will restore as: 0p_estatik_fb_fields
+0000.456 () Atomic restore: dropping original table (JTujPt_estatik_fb_fields)
+0000.457 () Atomic restore: renaming new table (0p_estatik_fb_fields) to final table name (JTujPt_estatik_fb_fields)
+0000.460 () Search and replacing table: JTujPt_estatik_fb_fields: rows: 0
+0000.460 () Processing table (InnoDB): wp_estatik_fb_sections - will restore as: 0p_estatik_fb_sections
+0000.465 () Atomic restore: dropping original table (JTujPt_estatik_fb_sections)
+0000.465 () Atomic restore: renaming new table (0p_estatik_fb_sections) to final table name (JTujPt_estatik_fb_sections)
+0000.469 () Search and replacing table: JTujPt_estatik_fb_sections: rows: 0
+0000.469 () Processing table (InnoDB): wp_pmpro_discount_codes - will restore as: 0p_pmpro_discount_codes
+0000.475 () Atomic restore: dropping original table (JTujPt_pmpro_discount_codes)
+0000.475 () Atomic restore: renaming new table (0p_pmpro_discount_codes) to final table name (JTujPt_pmpro_discount_codes)
+0000.479 () Search and replacing table: JTujPt_pmpro_discount_codes: rows: 0
+0000.479 () Processing table (InnoDB): wp_pmpro_discount_codes_levels - will restore as: 0p_pmpro_discount_codes_levels
+0000.484 () Database queries processed: 50 in 0.46 seconds
+0000.484 () Atomic restore: dropping original table (JTujPt_pmpro_discount_codes_levels)
+0000.484 () Atomic restore: renaming new table (0p_pmpro_discount_codes_levels) to final table name (JTujPt_pmpro_discount_codes_levels)
+0000.488 () Search and replacing table: JTujPt_pmpro_discount_codes_levels: rows: 0
+0000.488 () Processing table (InnoDB): wp_pmpro_discount_codes_uses - will restore as: 0p_pmpro_discount_codes_uses
+0000.493 () Atomic restore: dropping original table (JTujPt_pmpro_discount_codes_uses)
+0000.493 () Atomic restore: renaming new table (0p_pmpro_discount_codes_uses) to final table name (JTujPt_pmpro_discount_codes_uses)
+0000.496 () Search and replacing table: JTujPt_pmpro_discount_codes_uses: rows: 0
+0000.496 () Processing table (InnoDB): wp_pmpro_groups - will restore as: 0p_pmpro_groups
+0000.502 () Atomic restore: dropping original table (JTujPt_pmpro_groups)
+0000.502 () Atomic restore: renaming new table (0p_pmpro_groups) to final table name (JTujPt_pmpro_groups)
+0000.505 () Search and replacing table: JTujPt_pmpro_groups: rows: 1
+0000.506 () Processing table (InnoDB): wp_pmpro_membership_levelmeta - will restore as: 0p_pmpro_membership_levelmeta
+0000.512 () Atomic restore: dropping original table (JTujPt_pmpro_membership_levelmeta)
+0000.512 () Atomic restore: renaming new table (0p_pmpro_membership_levelmeta) to final table name (JTujPt_pmpro_membership_levelmeta)
+0000.516 () Search and replacing table: JTujPt_pmpro_membership_levelmeta: rows: 0
+0000.516 () Processing table (InnoDB): wp_pmpro_membership_levels - will restore as: 0p_pmpro_membership_levels
+0000.523 () Atomic restore: dropping original table (JTujPt_pmpro_membership_levels)
+0000.523 () Atomic restore: renaming new table (0p_pmpro_membership_levels) to final table name (JTujPt_pmpro_membership_levels)
+0000.527 () Search and replacing table: JTujPt_pmpro_membership_levels: rows: 1
+0000.527 () Processing table (InnoDB): wp_pmpro_membership_levels_groups - will restore as: 0p_pmpro_membership_levels_groups
+0000.533 () Atomic restore: dropping original table (JTujPt_pmpro_membership_levels_groups)
+0000.533 () Atomic restore: renaming new table (0p_pmpro_membership_levels_groups) to final table name (JTujPt_pmpro_membership_levels_groups)
+0000.537 () Search and replacing table: JTujPt_pmpro_membership_levels_groups: rows: 1
+0000.537 () Processing table (InnoDB): wp_pmpro_membership_ordermeta - will restore as: 0p_pmpro_membership_ordermeta
+0000.543 () Atomic restore: dropping original table (JTujPt_pmpro_membership_ordermeta)
+0000.543 () Atomic restore: renaming new table (0p_pmpro_membership_ordermeta) to final table name (JTujPt_pmpro_membership_ordermeta)
+0000.547 () Search and replacing table: JTujPt_pmpro_membership_ordermeta: rows: 0
+0000.547 () Processing table (InnoDB): wp_pmpro_membership_orders - will restore as: 0p_pmpro_membership_orders
+0000.558 () Atomic restore: dropping original table (JTujPt_pmpro_membership_orders)
+0000.559 () Atomic restore: renaming new table (0p_pmpro_membership_orders) to final table name (JTujPt_pmpro_membership_orders)
+0000.563 () Search and replacing table: JTujPt_pmpro_membership_orders: rows: 0
+0000.563 () Processing table (InnoDB): wp_pmpro_memberships_categories - will restore as: 0p_pmpro_memberships_categories
+0000.568 () Atomic restore: dropping original table (JTujPt_pmpro_memberships_categories)
+0000.569 () Atomic restore: renaming new table (0p_pmpro_memberships_categories) to final table name (JTujPt_pmpro_memberships_categories)
+0000.572 () Search and replacing table: JTujPt_pmpro_memberships_categories: rows: 0
+0000.572 () Processing table (InnoDB): wp_pmpro_memberships_pages - will restore as: 0p_pmpro_memberships_pages
+0000.577 () Atomic restore: dropping original table (JTujPt_pmpro_memberships_pages)
+0000.577 () Atomic restore: renaming new table (0p_pmpro_memberships_pages) to final table name (JTujPt_pmpro_memberships_pages)
+0000.580 () Search and replacing table: JTujPt_pmpro_memberships_pages: rows: 0
+0000.580 () Processing table (InnoDB): wp_pmpro_memberships_users - will restore as: 0p_pmpro_memberships_users
+0000.588 () Atomic restore: dropping original table (JTujPt_pmpro_memberships_users)
+0000.588 () Atomic restore: renaming new table (0p_pmpro_memberships_users) to final table name (JTujPt_pmpro_memberships_users)
+0000.592 () Search and replacing table: JTujPt_pmpro_memberships_users: rows: 0
+0000.592 () Processing table (InnoDB): wp_pmpro_subscriptionmeta - will restore as: 0p_pmpro_subscriptionmeta
+0000.597 () Atomic restore: dropping original table (JTujPt_pmpro_subscriptionmeta)
+0000.598 () Atomic restore: renaming new table (0p_pmpro_subscriptionmeta) to final table name (JTujPt_pmpro_subscriptionmeta)
+0000.601 () Search and replacing table: JTujPt_pmpro_subscriptionmeta: rows: 0
+0000.601 () Processing table (InnoDB): wp_pmpro_subscriptions - will restore as: 0p_pmpro_subscriptions
+0000.607 () Unlocking database and leaving maintenance mode
+0000.608 () ביטול מצב תחזוקה&#8230;
+0000.608 () Atomic restore: dropping original table (JTujPt_pmpro_subscriptions)
+0000.608 () Atomic restore: renaming new table (0p_pmpro_subscriptions) to final table name (JTujPt_pmpro_subscriptions)
+0000.612 () Search and replacing table: JTujPt_pmpro_subscriptions: rows: 0
+0000.612 () Finished: lines processed: 79 in 0.59 seconds
+0000.612 () Cleaning up rubbish...
+0000.612 () Begin search and replace (updraftplus_restored_db)
+0000.612 () [Database-replace-site-url] Database: search and replace site URL
+0000.613 () Restored pre-migration site ID for this installation
+0000.614 () Database search and replace: replace http://estate.local in backup dump with https://dirata.co.il
+0000.614 () Database search and replace: replace http://www.estate.local in backup dump with https://dirata.co.il
+0000.614 () Database search and replace: replace https://www.estate.local in backup dump with https://dirata.co.il
+0000.614 () Database search and replace: replace https://estate.local in backup dump with https://dirata.co.il
+0000.614 () Database search and replace: replace C:\Users\shale\Local Sites\estate\app\public in backup dump with /var/www/vhosts/dirata.co.il/httpdocs
+0000.615 () Search and replacing table: JTujPt_commentmeta: already done
+0000.615 () Search and replacing table: JTujPt_comments: already done
+0000.615 () Search and replacing table: JTujPt_estatik_fb_fields: already done
+0000.615 () Search and replacing table: JTujPt_estatik_fb_sections: already done
+0000.615 () Search and replacing table: JTujPt_links: already done
+0000.615 () Search and replacing table: JTujPt_options: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_discount_codes: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_discount_codes_levels: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_discount_codes_uses: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_groups: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_membership_levelmeta: already done
+0000.615 () Search and replacing table: JTujPt_pmpro_membership_levels: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_membership_levels_groups: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_membership_ordermeta: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_membership_orders: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_memberships_categories: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_memberships_pages: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_memberships_users: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_subscriptionmeta: already done
+0000.616 () Search and replacing table: JTujPt_pmpro_subscriptions: already done
+0000.616 () Search and replacing table: JTujPt_postmeta: already done
+0000.616 () Search and replacing table: JTujPt_posts: already done
+0000.616 () Search and replacing table: JTujPt_term_relationships: already done
+0000.616 () Search and replacing table: JTujPt_term_taxonomy: already done
+0000.616 () Search and replacing table: JTujPt_termmeta: already done
+0000.616 () Search and replacing table: JTujPt_terms: already done
+0000.617 () Search and replacing table: JTujPt_usermeta: already done
+0000.617 () Search and replacing table: JTujPt_users: already done
+0000.618 () Search and replacing table: JTujPt_actionscheduler_actions: rows: 2
+0000.618 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0000.619 () Search and replacing table: JTujPt_actionscheduler_claims: rows: 0
+0000.620 () Search and replacing table: JTujPt_actionscheduler_groups: rows: 2
+0000.621 () Search and replacing table: JTujPt_actionscheduler_logs: rows: 6
+0000.624 () Search and replacing table: JTujPt_apcm_details: rows: 1112
+0000.644 () Search and replacing table: JTujPt_apcm_statistics: rows: 556
+0000.664 () Search and replacing table: JTujPt_wpr_above_the_fold: rows: 0
+0000.667 () Search and replacing table: JTujPt_wpr_image_optimization: rows: 0
+0000.667 () Search and replacing table: JTujPt_wpr_rocket_cache: rows: 7
+0000.670 () Search and replacing table: JTujPt_wpr_rucss_used_css: rows: 0
+0000.676 () Entity: plugins
+0000.676 () restore_backup(backup_file=backup_2025-01-30-0940_estate_4243cc5e71ce-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:56:"/var/www/vhosts/dirata.co.il/httpdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.677 () Unpacking backup... (backup_2025-01-30-0940_estate_4243cc5e71ce-plugins.zip, 17.4 MB)
+0000.678 () Unzipping backup_2025-01-30-0940_estate_4243cc5e71ce-plugins.zip to /var/www/vhosts/dirata.co.il/httpdocs/wp-content/upgrade/18c7b4ee/ using UpdraftPlus_ZipArchive, starting index 0
+0001.274 () Unzip progress: 1002 out of 3932 files (8.8 MB, plugins/estatik/templates/admin/settings/tabs/map-tab.php)
+0001.776 () Unzip progress: 2003 out of 3932 files (15.6 MB, plugins/paid-memberships-pro/js/pmpro-admin.js)
+0004.598 () Unzip progress: 3004 out of 3932 files (66.6 MB, plugins/updraftplus/methods/email.php)
+0005.332 () Unzip progress: 3932 out of 3932 files (73 MB, plugins/updraftplus/vendor/yahnis-elsts/plugin-update-checker/vendor/PucReadmeParser.php)
+0005.334 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.334 () Moving old data: can potentially use wp_filesystem method / -old
+0005.334 () Moving old data out of the way...
+0005.810 () Top-level entities being moved: index.php, clsop, apcu-manager, really-simple-ssl, updraftplus
+0005.812 () Moving unpacked backup into place...
+0006.222 () Top-level entities being moved: classic-editor, estatik, paid-memberships-pro, updraftplus, index.php
+0006.224 () Cleaning up rubbish...
+0006.227 () Entity: themes
+0006.227 () restore_backup(backup_file=backup_2025-01-30-0940_estate_4243cc5e71ce-themes.zip, type=themes, info=a:3:{s:4:"path";s:55:"/var/www/vhosts/dirata.co.il/httpdocs/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0006.227 () Unpacking backup... (backup_2025-01-30-0940_estate_4243cc5e71ce-themes.zip, 19.2 MB)
+0006.228 () Unzipping backup_2025-01-30-0940_estate_4243cc5e71ce-themes.zip to /var/www/vhosts/dirata.co.il/httpdocs/wp-content/upgrade/03af41f6/ using UpdraftPlus_ZipArchive, starting index 0
+0007.675 () Unzip progress: 486 out of 486 files (28.5 MB, themes/twentytwentyfive/theme.json)
+0007.676 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.676 () Moving old data: can potentially use wp_filesystem method / -old
+0007.677 () Moving old data out of the way...
+0007.828 () Top-level entities being moved: index.php, hello-elementor, astra
+0007.829 () Moving unpacked backup into place...
+0007.874 () Top-level entities being moved: dirata, generatepress, twentytwentyfive, index.php
+0007.875 () Cleaning up rubbish...
+0007.877 () Entity: uploads
+0007.878 () restore_backup(backup_file=backup_2025-01-30-0940_estate_4243cc5e71ce-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:56:"/var/www/vhosts/dirata.co.il/httpdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0007.878 () Unpacking backup... (backup_2025-01-30-0940_estate_4243cc5e71ce-uploads.zip, 10.5 MB)
+0007.878 () Unzipping backup_2025-01-30-0940_estate_4243cc5e71ce-uploads.zip to /var/www/vhosts/dirata.co.il/httpdocs/wp-content/upgrade/1834b042/ using UpdraftPlus_ZipArchive, starting index 0
+0008.422 () Unzip progress: 18 out of 18 files (10.8 MB, uploads/2025/01/D2-Night.jpg)
+0008.424 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.424 () Moving old data: can potentially use wp_filesystem method / -old
+0008.424 () Moving old data out of the way...
+0008.425 () Moving unpacked backup into place...
+0008.429 () Cleaning up rubbish...
+0008.431 () Entity: others
+0008.431 () restore_backup(backup_file=backup_2025-01-30-0940_estate_4243cc5e71ce-others.zip, type=others, info=a:2:{s:4:"path";s:48:"/var/www/vhosts/dirata.co.il/httpdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0008.432 () Unpacking backup... (backup_2025-01-30-0940_estate_4243cc5e71ce-others.zip, 1 MB)
+0008.432 () Unzipping backup_2025-01-30-0940_estate_4243cc5e71ce-others.zip to /var/www/vhosts/dirata.co.il/httpdocs/wp-content/upgrade/9665c881/ using UpdraftPlus_ZipArchive, starting index 0
+0008.553 () Unzip progress: 83 out of 83 files (3.7 MB, languages/themes/hello-elementor-he_IL.po)
+0008.554 () PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/var/www/vhosts/dirata.co.il/httpdocs/wp-content/upgrade/9665c881/index.php/index.php) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 419, wp-admin/includes/class-wp-filesystem-direct.php)
+0008.557 () Cleaning up rubbish...
+0008.573 () Purging cache directory: /var/www/vhosts/dirata.co.il/httpdocs/wp-content/cache
+0008.614 () Restore successful!
+0008.614 () Restore successful

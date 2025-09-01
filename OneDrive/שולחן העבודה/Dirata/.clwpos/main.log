@@ -1,0 +1,16 @@
+2024-12-04 14:38:40,019: (clwpos.user.wpos_user) [INFO] Income request=Namespace(command='disable', user=pwd.struct_passwd(pw_name='dirata.co.il_m5b3w2f17pe', pw_passwd='x', pw_uid=11699, pw_gid=1005, pw_gecos='', pw_dir='/var/www/vhosts/dirata.co.il', pw_shell='/bin/false'), domain='dirata.co.il', wp_path='', feature='accelerate_wp')
+2024-12-04 14:38:40,634: (clwpos.user.wpos_user) [INFO] Command finished with result={'warning': 'Optimization feature %(feature)s is already disabled on the domain %(domain)s. Nothing to be done.', 'context': {'domain': 'dirata.co.il', 'feature': 'accelerate_wp'}}
+2024-12-04 14:38:41,265: (clwpos.user.wpos_user) [INFO] Income request=Namespace(command='enable', user=pwd.struct_passwd(pw_name='dirata.co.il_m5b3w2f17pe', pw_passwd='x', pw_uid=11699, pw_gid=1005, pw_gecos='', pw_dir='/var/www/vhosts/dirata.co.il', pw_shell='/bin/false'), approve_license_terms=False, feature='accelerate_wp', domain='dirata.co.il', wp_path='', skip_dns_check=True, ignore_errors=False)
+2024-12-04 14:38:42,659: (clwpos.wp_utils) [INFO] Executing command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin list --json
+2024-12-04 14:38:43,732: (clwpos.wp_utils) [INFO] Command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin list --json returned output=[{"name":"akismet","status":"inactive","update":"none","version":"5.3.5"},{"name":"hello","status":"inactive","update":"none","version":"1.7.2"}]
+2024-12-04 14:38:44,013: (clwpos.wp_utils) [INFO] Executing command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin install /opt/cloudlinux-site-optimization-module/clsop.zip
+2024-12-04 14:38:46,480: (clwpos.wp_utils) [INFO] Command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin install /opt/cloudlinux-site-optimization-module/clsop.zip returned output=פותח את החבילה...
+התקנת תוסף...
+התוסף הותקן בהצלחה.
+Success: Installed 1 of 1 plugins.
+2024-12-04 14:38:46,481: (clwpos.wp_utils) [INFO] Executing command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin activate clsop
+2024-12-04 14:38:48,274: (clwpos.wp_utils) [INFO] Command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin activate clsop returned output=Plugin 'clsop' activated.
+Success: Activated 1 of 1 plugins.
+2024-12-04 14:38:49,966: (clwpos.wp_utils) [INFO] Executing command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin list --json
+2024-12-04 14:38:51,352: (clwpos.wp_utils) [INFO] Command=/opt/clwpos/wp-cli-wrapped /opt/alt/php81/usr/bin/php /var/www/vhosts/dirata.co.il/httpdocs plugin list --json returned output=[{"name":"clsop","status":"active","update":"none","version":"3.16-1.1-17"},{"name":"advanced-cache.php","status":"dropin","update":"none","version":""}]
+2024-12-04 14:38:51,365: (clwpos.user.wpos_user) [INFO] Command finished with result={'feature': {'enabled': True}, 'used_memory': None}

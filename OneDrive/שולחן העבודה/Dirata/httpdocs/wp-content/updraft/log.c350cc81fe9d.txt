@@ -1,0 +1,258 @@
+0000.001 (0) Opened log file at time: Thu, 30 Jan 2025 22:08:14 +0000 on https://dirata.co.il
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.14.1 WP: 6.7.1 PHP: 8.1.31 (litespeed, Linux c4-vm-restored 3.10.0-962.3.2.lve1.5.80.el7.x86_64 #1 SMP Tue May 2 18:31:48 UTC 2023 x86_64) MySQL: 10.2.44-MariaDB-cll-lve (max packet size=1073741824) WPLANG: he_IL Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 5.2M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 10040.4 MB
+0000.005 (0) Deleting old temporary file: log.07884a26995f-browser.txt
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.007 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.011 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1738230029, seconds_ago=44865)
+0000.012 (0) Semaphore (fd, JTujPt_options) was stuck, set lock time to 2025-01-30 22:08:14
+0000.013 (0) Semaphore (fd, JTujPt_options) reset to 1
+0000.014 (0) Set semaphore last lock (fd) time to 2025-01-30 22:08:14
+0000.014 (0) Semaphore lock (fd) complete
+0000.017 (0) Backup run: resumption=0, nonce=c350cc81fe9d, file_nonce=c350cc81fe9d begun at=1738274894 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1738275194) in case this run gets aborted
+0000.038 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.038 (0) Checking if we have a zip executable available
+0000.039 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.040 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.040 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.041 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.041 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.042 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.043 (0) Creation of backups of directories: beginning
+0000.050 (0) No backup of plugins: excluded by user's options
+0000.050 (0) No backup of themes: excluded by user's options
+0000.051 (0) No backup of uploads: excluded by user's options
+0000.051 (0) No backup of mu-plugins: excluded by user's options
+0000.052 (0) No backup of others: excluded by user's options
+0000.054 (0) Saving backup status to database (elements: 0)
+0000.055 (0) Beginning creation of database dump (WordPress DB)
+0000.056 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.057 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.057 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.058 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.058 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.058 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.059 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.067 (0) Table JTujPt_options: Total expected rows (via COUNT): 344
+0000.067 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.140 (0) Table JTujPt_options: Rows added in this batch (next record: 739): 334 (uncompressed bytes in this segment=1500955) in 0.08 seconds
+0000.156 (0) Table JTujPt_options: finishing file(s) (2, 372.5 KB)
+0000.159 (0) Table JTujPt_users: Total expected rows (via COUNT): 1
+0000.160 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.162 (0) Table JTujPt_users: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1380) in 0.00 seconds
+0000.165 (0) Table JTujPt_users: finishing file(s) (2, 0.6 KB)
+0000.169 (0) Table JTujPt_usermeta: Total expected rows (via COUNT): 16
+0000.170 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.171 (0) Table JTujPt_usermeta: Rows added in this batch (next record: 49): 16 (uncompressed bytes in this segment=1732) in 0.00 seconds
+0000.175 (0) Table JTujPt_usermeta: finishing file(s) (2, 0.8 KB)
+0000.181 (0) Table JTujPt_commentmeta: Total expected rows (via COUNT): 0
+0000.183 (0) Table JTujPt_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.01 seconds
+0000.186 (0) Table JTujPt_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.191 (0) Table JTujPt_comments: Total expected rows (via COUNT): 1
+0000.192 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.195 (0) Table JTujPt_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2161) in 0.01 seconds
+0000.199 (0) Table JTujPt_comments: finishing file(s) (2, 0.8 KB)
+0000.204 (0) Table JTujPt_links: Total expected rows (via COUNT): 0
+0000.206 (0) Table JTujPt_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1330) in 0.00 seconds
+0000.208 (0) Table JTujPt_links: finishing file(s) (2, 0.5 KB)
+0000.212 (0) Table JTujPt_postmeta: Total expected rows (via COUNT): 112
+0000.213 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.215 (0) Table JTujPt_postmeta: Rows added in this batch (next record: 134): 112 (uncompressed bytes in this segment=7579) in 0.01 seconds
+0000.219 (0) Table JTujPt_postmeta: finishing file(s) (2, 2.3 KB)
+0000.223 (0) Table JTujPt_posts: Total expected rows (via COUNT): 42
+0000.224 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.227 (0) Table JTujPt_posts: Rows added in this batch (next record: 50): 42 (uncompressed bytes in this segment=26317) in 0.01 seconds
+0000.229 (0) Table JTujPt_posts: finishing file(s) (2, 5.6 KB)
+0000.232 (0) Table JTujPt_term_relationships: Total expected rows (approximate): 9
+0000.233 (0) Table JTujPt_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=835) in 0.00 seconds
+0000.235 (0) Table JTujPt_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.238 (0) Table JTujPt_term_taxonomy: Total expected rows (via COUNT): 93
+0000.239 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.241 (0) Table JTujPt_term_taxonomy: Rows added in this batch (next record: 101): 93 (uncompressed bytes in this segment=4140) in 0.00 seconds
+0000.243 (0) Table JTujPt_term_taxonomy: finishing file(s) (2, 1 KB)
+0000.247 (0) Table JTujPt_termmeta: Total expected rows (via COUNT): 58
+0000.248 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.249 (0) Table JTujPt_termmeta: Rows added in this batch (next record: 63): 58 (uncompressed bytes in this segment=5060) in 0.00 seconds
+0000.252 (0) Table JTujPt_termmeta: finishing file(s) (2, 1.1 KB)
+0000.254 (0) Table JTujPt_terms: Total expected rows (via COUNT): 93
+0000.254 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.256 (0) Table JTujPt_terms: Rows added in this batch (next record: 101): 93 (uncompressed bytes in this segment=4605) in 0.00 seconds
+0000.258 (0) Table JTujPt_terms: finishing file(s) (2, 1.8 KB)
+0000.262 (0) Table JTujPt_actionscheduler_actions: Total expected rows (via COUNT): 2
+0000.263 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.264 (0) Table JTujPt_actionscheduler_actions: Rows added in this batch (next record: 854): 2 (uncompressed bytes in this segment=2133) in 0.00 seconds
+0000.266 (0) Table JTujPt_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0000.269 (0) Table JTujPt_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.270 (0) Table JTujPt_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0000.272 (0) Table JTujPt_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.275 (0) Table JTujPt_actionscheduler_groups: Total expected rows (via COUNT): 2
+0000.275 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.277 (0) Table JTujPt_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=741) in 0.00 seconds
+0000.278 (0) Table JTujPt_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.282 (0) Table JTujPt_actionscheduler_logs: Total expected rows (via COUNT): 6
+0000.283 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.285 (0) Table JTujPt_actionscheduler_logs: Rows added in this batch (next record: 2550): 6 (uncompressed bytes in this segment=1383) in 0.00 seconds
+0000.288 (0) Table JTujPt_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0000.291 (0) Table JTujPt_apcm_details: Total expected rows (approximate): 1146
+0000.306 (0) Table JTujPt_apcm_details: Rows added in this batch (next record: 2000): 1112 (uncompressed bytes in this segment=56808) in 0.02 seconds
+0000.310 (0) Table JTujPt_apcm_details: finishing file(s) (2, 7.8 KB)
+0000.314 (0) Table JTujPt_apcm_statistics: Total expected rows (approximate): 573
+0000.325 (0) Table JTujPt_apcm_statistics: Rows added in this batch (next record: 1000): 556 (uncompressed bytes in this segment=48694) in 0.01 seconds
+0000.327 (0) Table JTujPt_apcm_statistics: finishing file(s) (2, 6 KB)
+0000.332 (0) Table JTujPt_estatik_fb_fields: Total expected rows (via COUNT): 0
+0000.333 (0) Table JTujPt_estatik_fb_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1633) in 0.00 seconds
+0000.336 (0) Table JTujPt_estatik_fb_fields: finishing file(s) (2, 0.5 KB)
+0000.340 (0) Table JTujPt_estatik_fb_sections: Total expected rows (via COUNT): 0
+0000.341 (0) Table JTujPt_estatik_fb_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=913) in 0.00 seconds
+0000.344 (0) Table JTujPt_estatik_fb_sections: finishing file(s) (2, 0.4 KB)
+0000.348 (0) Table JTujPt_pmpro_discount_codes: Total expected rows (via COUNT): 0
+0000.349 (0) Table JTujPt_pmpro_discount_codes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.00 seconds
+0000.352 (0) Table JTujPt_pmpro_discount_codes: finishing file(s) (2, 0.4 KB)
+0000.355 (0) Table JTujPt_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0000.357 (0) Table JTujPt_pmpro_discount_codes_levels: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1195) in 0.00 seconds
+0000.359 (0) Table JTujPt_pmpro_discount_codes_levels: finishing file(s) (2, 0.5 KB)
+0000.363 (0) Table JTujPt_pmpro_discount_codes_uses: Total expected rows (via COUNT): 0
+0000.364 (0) Table JTujPt_pmpro_discount_codes_uses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=809) in 0.00 seconds
+0000.366 (0) Table JTujPt_pmpro_discount_codes_uses: finishing file(s) (2, 0.4 KB)
+0000.370 (0) Table JTujPt_pmpro_groups: Total expected rows (via COUNT): 1
+0000.371 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.372 (0) Table JTujPt_pmpro_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=722) in 0.00 seconds
+0000.375 (0) Table JTujPt_pmpro_groups: finishing file(s) (2, 0.4 KB)
+0000.379 (0) Table JTujPt_pmpro_membership_levelmeta: Total expected rows (via COUNT): 0
+0000.381 (0) Table JTujPt_pmpro_membership_levelmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.00 seconds
+0000.384 (0) Table JTujPt_pmpro_membership_levelmeta: finishing file(s) (2, 0.4 KB)
+0000.388 (0) Table JTujPt_pmpro_membership_levels: Total expected rows (via COUNT): 1
+0000.389 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.391 (0) Table JTujPt_pmpro_membership_levels: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1603) in 0.01 seconds
+0000.395 (0) Table JTujPt_pmpro_membership_levels: finishing file(s) (2, 0.6 KB)
+0000.399 (0) Table JTujPt_pmpro_membership_levels_groups: Total expected rows (via COUNT): 1
+0000.400 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.401 (0) Table JTujPt_pmpro_membership_levels_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.00 seconds
+0000.404 (0) Table JTujPt_pmpro_membership_levels_groups: finishing file(s) (2, 0.4 KB)
+0000.410 (0) Table JTujPt_pmpro_membership_ordermeta: Total expected rows (via COUNT): 0
+0000.412 (0) Table JTujPt_pmpro_membership_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0000.415 (0) Table JTujPt_pmpro_membership_ordermeta: finishing file(s) (2, 0.4 KB)
+0000.421 (0) Table JTujPt_pmpro_membership_orders: Total expected rows (via COUNT): 0
+0000.422 (0) Table JTujPt_pmpro_membership_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3327) in 0.01 seconds
+0000.424 (0) Table JTujPt_pmpro_membership_orders: finishing file(s) (2, 0.7 KB)
+0000.427 (0) Table JTujPt_pmpro_memberships_categories: Total expected rows (approximate): 0
+0000.429 (0) Table JTujPt_pmpro_memberships_categories: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0000.431 (0) Table JTujPt_pmpro_memberships_categories: finishing file(s) (2, 0.4 KB)
+0000.434 (0) Table JTujPt_pmpro_memberships_pages: Total expected rows (approximate): 0
+0000.435 (0) Table JTujPt_pmpro_memberships_pages: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=723) in 0.00 seconds
+0000.437 (0) Table JTujPt_pmpro_memberships_pages: finishing file(s) (2, 0.4 KB)
+0000.441 (0) Table JTujPt_pmpro_memberships_users: Total expected rows (via COUNT): 0
+0000.443 (0) Table JTujPt_pmpro_memberships_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1390) in 0.00 seconds
+0000.445 (0) Table JTujPt_pmpro_memberships_users: finishing file(s) (2, 0.5 KB)
+0000.450 (0) Table JTujPt_pmpro_subscriptionmeta: Total expected rows (via COUNT): 0
+0000.451 (0) Table JTujPt_pmpro_subscriptionmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0000.454 (0) Table JTujPt_pmpro_subscriptionmeta: finishing file(s) (2, 0.4 KB)
+0000.459 (0) Table JTujPt_pmpro_subscriptions: Total expected rows (via COUNT): 0
+0000.461 (0) Table JTujPt_pmpro_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1620) in 0.00 seconds
+0000.463 (0) Table JTujPt_pmpro_subscriptions: finishing file(s) (2, 0.6 KB)
+0000.468 (0) Table JTujPt_wpr_above_the_fold: Total expected rows (via COUNT): 0
+0000.470 (0) Table JTujPt_wpr_above_the_fold: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1157) in 0.00 seconds
+0000.473 (0) Table JTujPt_wpr_above_the_fold: finishing file(s) (2, 0.5 KB)
+0000.478 (0) Table JTujPt_wpr_image_optimization: Total expected rows (via COUNT): 0
+0000.479 (0) Table JTujPt_wpr_image_optimization: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1369) in 0.00 seconds
+0000.482 (0) Table JTujPt_wpr_image_optimization: finishing file(s) (2, 0.5 KB)
+0000.486 (0) Table JTujPt_wpr_rocket_cache: Total expected rows (via COUNT): 7
+0000.486 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.489 (0) Table JTujPt_wpr_rocket_cache: Rows added in this batch (next record: 16): 7 (uncompressed bytes in this segment=1719) in 0.00 seconds
+0000.491 (0) Table JTujPt_wpr_rocket_cache: finishing file(s) (2, 0.7 KB)
+0000.496 (0) Table JTujPt_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0000.497 (0) Table JTujPt_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1682) in 0.00 seconds
+0000.500 (0) Table JTujPt_wpr_rucss_used_css: finishing file(s) (2, 0.6 KB)
+0000.501 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/vhosts/dirata.co.il/httpdocs/wp-content/updraft/backup_2025-01-30-2208_estate_c350cc81fe9d-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0000.502 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_options.table.tmpr740.gz (1/38/fopen): adding to final database dump
+0000.515 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_options.table.gz (2/38/fopen): adding to final database dump
+0000.516 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_users.table.tmpr3.gz (3/38/fopen): adding to final database dump
+0000.516 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_users.table.gz (4/38/fopen): adding to final database dump
+0000.517 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_usermeta.table.tmpr50.gz (5/38/fopen): adding to final database dump
+0000.518 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_usermeta.table.gz (6/38/fopen): adding to final database dump
+0000.519 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_commentmeta.table.tmpr0.gz (7/38/fopen): adding to final database dump
+0000.519 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_commentmeta.table.gz (8/38/fopen): adding to final database dump
+0000.520 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_comments.table.tmpr2.gz (9/38/fopen): adding to final database dump
+0000.521 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_comments.table.gz (10/38/fopen): adding to final database dump
+0000.521 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_links.table.tmpr0.gz (11/38/fopen): adding to final database dump
+0000.522 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_links.table.gz (12/38/fopen): adding to final database dump
+0000.523 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_postmeta.table.tmpr135.gz (13/38/fopen): adding to final database dump
+0000.523 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_postmeta.table.gz (14/38/fopen): adding to final database dump
+0000.524 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_posts.table.tmpr51.gz (15/38/fopen): adding to final database dump
+0000.525 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_posts.table.gz (16/38/fopen): adding to final database dump
+0000.525 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_term_relationships.table.tmpr100001.gz (17/38/fopen): adding to final database dump
+0000.526 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_term_relationships.table.gz (18/38/fopen): adding to final database dump
+0000.527 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_term_taxonomy.table.tmpr102.gz (19/38/fopen): adding to final database dump
+0000.527 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_term_taxonomy.table.gz (20/38/fopen): adding to final database dump
+0000.528 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_termmeta.table.tmpr64.gz (21/38/fopen): adding to final database dump
+0000.529 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_termmeta.table.gz (22/38/fopen): adding to final database dump
+0000.529 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_terms.table.tmpr102.gz (23/38/fopen): adding to final database dump
+0000.530 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_terms.table.gz (24/38/fopen): adding to final database dump
+0000.531 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_actions.table.tmpr855.gz (25/38/fopen): adding to final database dump
+0000.531 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_actions.table.gz (26/38/fopen): adding to final database dump
+0000.532 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_claims.table.tmpr0.gz (27/38/fopen): adding to final database dump
+0000.533 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_claims.table.gz (28/38/fopen): adding to final database dump
+0000.533 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_groups.table.tmpr3.gz (29/38/fopen): adding to final database dump
+0000.534 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_groups.table.gz (30/38/fopen): adding to final database dump
+0000.535 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_logs.table.tmpr2551.gz (31/38/fopen): adding to final database dump
+0000.535 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_actionscheduler_logs.table.gz (32/38/fopen): adding to final database dump
+0000.536 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_apcm_details.table.tmpr2001.gz (33/38/fopen): adding to final database dump
+0000.537 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_apcm_details.table.gz (34/38/fopen): adding to final database dump
+0000.537 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_apcm_statistics.table.tmpr1001.gz (35/38/fopen): adding to final database dump
+0000.538 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_apcm_statistics.table.gz (36/38/fopen): adding to final database dump
+0000.539 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_estatik_fb_fields.table.tmpr0.gz (37/38/fopen): adding to final database dump
+0000.540 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_estatik_fb_fields.table.gz (38/38/fopen): adding to final database dump
+0000.540 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_estatik_fb_sections.table.tmpr0.gz (39/38/fopen): adding to final database dump
+0000.541 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_estatik_fb_sections.table.gz (40/38/fopen): adding to final database dump
+0000.542 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes.table.tmpr0.gz (41/38/fopen): adding to final database dump
+0000.542 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes.table.gz (42/38/fopen): adding to final database dump
+0000.543 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes_levels.table.tmpr1.gz (43/38/fopen): adding to final database dump
+0000.544 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes_levels.table.gz (44/38/fopen): adding to final database dump
+0000.544 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes_uses.table.tmpr0.gz (45/38/fopen): adding to final database dump
+0000.545 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_discount_codes_uses.table.gz (46/38/fopen): adding to final database dump
+0000.545 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_groups.table.tmpr2.gz (47/38/fopen): adding to final database dump
+0000.546 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_groups.table.gz (48/38/fopen): adding to final database dump
+0000.547 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levelmeta.table.tmpr0.gz (49/38/fopen): adding to final database dump
+0000.547 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levelmeta.table.gz (50/38/fopen): adding to final database dump
+0000.548 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levels.table.tmpr2.gz (51/38/fopen): adding to final database dump
+0000.548 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levels.table.gz (52/38/fopen): adding to final database dump
+0000.549 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levels_groups.table.tmpr2.gz (53/38/fopen): adding to final database dump
+0000.549 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_levels_groups.table.gz (54/38/fopen): adding to final database dump
+0000.550 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_ordermeta.table.tmpr0.gz (55/38/fopen): adding to final database dump
+0000.551 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_ordermeta.table.gz (56/38/fopen): adding to final database dump
+0000.551 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_orders.table.tmpr0.gz (57/38/fopen): adding to final database dump
+0000.552 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_membership_orders.table.gz (58/38/fopen): adding to final database dump
+0000.552 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_categories.table.tmpr1.gz (59/38/fopen): adding to final database dump
+0000.553 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_categories.table.gz (60/38/fopen): adding to final database dump
+0000.553 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_pages.table.tmpr1.gz (61/38/fopen): adding to final database dump
+0000.554 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_pages.table.gz (62/38/fopen): adding to final database dump
+0000.554 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_users.table.tmpr0.gz (63/38/fopen): adding to final database dump
+0000.555 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_memberships_users.table.gz (64/38/fopen): adding to final database dump
+0000.555 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_subscriptionmeta.table.tmpr0.gz (65/38/fopen): adding to final database dump
+0000.556 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_subscriptionmeta.table.gz (66/38/fopen): adding to final database dump
+0000.556 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_subscriptions.table.tmpr0.gz (67/38/fopen): adding to final database dump
+0000.557 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_pmpro_subscriptions.table.gz (68/38/fopen): adding to final database dump
+0000.557 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_above_the_fold.table.tmpr0.gz (69/38/fopen): adding to final database dump
+0000.558 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_above_the_fold.table.gz (70/38/fopen): adding to final database dump
+0000.558 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_image_optimization.table.tmpr0.gz (71/38/fopen): adding to final database dump
+0000.559 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_image_optimization.table.gz (72/38/fopen): adding to final database dump
+0000.559 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_rocket_cache.table.tmpr17.gz (73/38/fopen): adding to final database dump
+0000.560 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_rocket_cache.table.gz (74/38/fopen): adding to final database dump
+0000.560 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_rucss_used_css.table.tmpr0.gz (75/38/fopen): adding to final database dump
+0000.561 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db-table-JTujPt_wpr_rucss_used_css.table.gz (76/38/fopen): adding to final database dump
+0000.566 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db.gz: finished writing out complete database file (413.3 KB)
+0000.592 (0) Total database tables backed up: 38 (backup_2025-01-30-2208_estate_c350cc81fe9d-db.gz, size: 423285, sha1: 9430fc0f21f2d42ebf1666ecf8282a3c5d701637, sha256: 8622ec311c8609b238625cdaff9ad7e24ae7ec3bfbcc3610f9bfc7e6ba9d1162)
+0000.596 (0) backup_2025-01-30-2208_estate_c350cc81fe9d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.596 (0) Saving backup history. Total backup size: 413.4 KB
+0000.598 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.599 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.600 (0) No remote despatch: user chose no remote backup service
+0000.601 (0) Recording as successfully uploaded: backup_2025-01-30-2208_estate_c350cc81fe9d-db.gz
+0000.602 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0000.602 (0) Resume backup (c350cc81fe9d, 0): finish run
+0000.604 (0) Decremented the semaphore (fd) by 1
+0000.605 (0) Semaphore (fd) unlocked
+0000.605 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.607 (0) No email will/can be sent - the user has not configured an email address.
+0000.608 (0) The backup succeeded and is now complete

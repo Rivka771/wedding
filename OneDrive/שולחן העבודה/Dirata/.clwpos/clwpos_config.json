@@ -1,0 +1,10 @@
+{
+    "docroots": {
+        "httpdocs": {
+            "": [
+                "site_optimization"
+            ]
+        }
+    },
+    "max_cache_memory": "64mb"
+}

@@ -1,0 +1,262 @@
+====Start Log July 3, 2025 2:07pm====
+process Order _REQUEST hit: Array
+(
+    [pmpro_level] => 1
+    [checkjavascript] => 1
+    [pmpro_other_discount_code] => 
+    [username] => kunyse
+    [password] => Pawow1855
+    [password2_copy] => 1
+    [bemail] => kunyse@mailinator.net
+    [bconfirmemail_copy] => 1
+    [fullname] => 
+    [bfirstname] => Emerald
+    [blastname] => Dudley
+    [baddress1] => 
+    [baddress2] => 
+    [bcity] => Non omnis eos sit
+    [bstate] => 
+    [bzipcode] => 
+    [bcountry] => US
+    [bphone] => +9723118771439
+    [pmpro_checkout_nonce] => d21acb406c
+    [_wp_http_referer] => /membership-account/membership-checkout/?pmpro_level=1
+    [submit-checkout] => 1
+    [javascriptok] => 1
+    [InternalCode] => 0
+    [payment_intent_id] => 769312
+    [setup_intent_id] => 769312
+    [subscription_id] => 9a4e7000-c609-498b-a8aa-2f8d2244ba6b
+    [takbull_token] => 7218910084735975614
+    [AccountNumber] => XXXXXXXXXXXX5614
+    [ExpirationMonth] => 12
+    [ExpirationYear] => 26
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+====Start Log July 3, 2025 2:07pm====
+Request pmpro_checkout_before_change_membership_level order:{}
+====Start Log July 16, 2025 12:30pm====
+cancel_subscription takbull hit PMPro_Subscription Object
+(
+    [id:protected] => 8
+    [user_id:protected] => 25
+    [membership_level_id:protected] => 1
+    [gateway:protected] => takbull
+    [gateway_environment:protected] => sandbox
+    [subscription_transaction_id:protected] => 9a4e7000-c609-498b-a8aa-2f8d2244ba6b
+    [status:protected] => cancelled
+    [startdate:protected] => 2025-07-03 14:07:37
+    [enddate:protected] => 2025-07-16 12:30:13
+    [next_payment_date:protected] => 
+    [billing_amount:protected] => 25
+    [cycle_number:protected] => 1
+    [cycle_period:protected] => Month
+    [billing_limit:protected] => 0
+    [trial_amount:protected] => 0
+    [trial_limit:protected] => 5
+    [initial_payment:protected] => 
+    [modified:protected] => 2025-07-03 14:07:37
+)
+
+====Start Log July 16, 2025 12:30pm====
+cancel Order takbull process: 9a4e7000-c609-498b-a8aa-2f8d2244ba6b
+====Start Log July 16, 2025 12:30pm====
+cancel Order takbull process: {"headers":{},"body":{"orderId":0,"internalCode":740005001,"internalDescription":"\u05dc\u05d0 \u05e0\u05de\u05e6\u05d0\u05d4 \u05e2\u05e1\u05e7\u05d4","providerCode":0,"doNotRetry":false,"isSubscriptionPayment":false,"saveToken":false,"documentId":0,"amount":0,"depositamount":0,"firstpayment":0,"constantpayment":0,"numberpayments":0,"dealType":0,"orderStatus":0,"tranSactionStatus":0,"applyCommision":false,"commisionFee":0}}
+====Start Log July 16, 2025 12:30pm====
+ResponseArray
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Wed, 16 Jul 2025 12:30:13 GMT
+                    [content-type] => application/json; charset=utf-8
+                    [content-length] => 368
+                    [server] => Microsoft-IIS/10.0
+                )
+
+        )
+
+    [body] => stdClass Object
+        (
+            [orderId] => 0
+            [internalCode] => 740005001
+            [internalDescription] => לא נמצאה עסקה
+            [providerCode] => 0
+            [doNotRetry] => 
+            [isSubscriptionPayment] => 
+            [saveToken] => 
+            [documentId] => 0
+            [amount] => 0
+            [depositamount] => 0
+            [firstpayment] => 0
+            [constantpayment] => 0
+            [numberpayments] => 0
+            [dealType] => 0
+            [orderStatus] => 0
+            [tranSactionStatus] => 0
+            [applyCommision] => 
+            [commisionFee] => 0
+        )
+
+)
+ Description:: לא נמצאה עסקה
+====Start Log July 16, 2025 12:30pm====
+cancel_subscription takbull hit PMPro_Subscription Object
+(
+    [id:protected] => 7
+    [user_id:protected] => 24
+    [membership_level_id:protected] => 1
+    [gateway:protected] => takbull
+    [gateway_environment:protected] => sandbox
+    [subscription_transaction_id:protected] => ebd250dc-97d8-44d5-aead-0f6960beb49c
+    [status:protected] => cancelled
+    [startdate:protected] => 2025-06-20 16:52:45
+    [enddate:protected] => 2025-07-16 12:30:13
+    [next_payment_date:protected] => 
+    [billing_amount:protected] => 25
+    [cycle_number:protected] => 1
+    [cycle_period:protected] => Month
+    [billing_limit:protected] => 0
+    [trial_amount:protected] => 0
+    [trial_limit:protected] => 5
+    [initial_payment:protected] => 
+    [modified:protected] => 2025-06-20 16:52:45
+)
+
+====Start Log July 16, 2025 12:30pm====
+cancel Order takbull process: ebd250dc-97d8-44d5-aead-0f6960beb49c
+====Start Log July 16, 2025 12:30pm====
+cancel Order takbull process: {"headers":{},"body":{"orderId":0,"internalCode":740005001,"internalDescription":"\u05dc\u05d0 \u05e0\u05de\u05e6\u05d0\u05d4 \u05e2\u05e1\u05e7\u05d4","providerCode":0,"doNotRetry":false,"isSubscriptionPayment":false,"saveToken":false,"documentId":0,"amount":0,"depositamount":0,"firstpayment":0,"constantpayment":0,"numberpayments":0,"dealType":0,"orderStatus":0,"tranSactionStatus":0,"applyCommision":false,"commisionFee":0}}
+====Start Log July 16, 2025 12:30pm====
+ResponseArray
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Wed, 16 Jul 2025 12:30:14 GMT
+                    [content-type] => application/json; charset=utf-8
+                    [content-length] => 368
+                    [server] => Microsoft-IIS/10.0
+                )
+
+        )
+
+    [body] => stdClass Object
+        (
+            [orderId] => 0
+            [internalCode] => 740005001
+            [internalDescription] => לא נמצאה עסקה
+            [providerCode] => 0
+            [doNotRetry] => 
+            [isSubscriptionPayment] => 
+            [saveToken] => 
+            [documentId] => 0
+            [amount] => 0
+            [depositamount] => 0
+            [firstpayment] => 0
+            [constantpayment] => 0
+            [numberpayments] => 0
+            [dealType] => 0
+            [orderStatus] => 0
+            [tranSactionStatus] => 0
+            [applyCommision] => 
+            [commisionFee] => 0
+        )
+
+)
+ Description:: לא נמצאה עסקה
+====Start Log July 16, 2025 12:31pm====
+process Order _REQUEST hit: Array
+(
+    [pmpro_level] => 1
+    [checkjavascript] => 1
+    [pmpro_other_discount_code] => 
+    [username] => kunyse
+    [password] => Pawow1855
+    [password2_copy] => 1
+    [bemail] => kunyse@mailinator.net
+    [bconfirmemail_copy] => 1
+    [fullname] => 
+    [bfirstname] => Emerald
+    [blastname] => Dudley
+    [baddress1] => Yoseftal Street 56
+    [baddress2] => 56
+    [bcity] => Non omnis eos sit
+    [bstate] => 
+    [bzipcode] => 5950733
+    [bcountry] => IL
+    [bphone] => +9723118771439
+    [pmpro_checkout_nonce] => dcb9919a48
+    [_wp_http_referer] => /membership-account/membership-checkout/?pmpro_level=1
+    [submit-checkout] => 1
+    [javascriptok] => 1
+    [InternalCode] => 0
+    [payment_intent_id] => 779809
+    [setup_intent_id] => 779809
+    [subscription_id] => d4cc0252-ab1a-441a-9763-fa3b5819bf4b
+    [takbull_token] => 3637602796755373712
+    [AccountNumber] => XXXXXXXXXXXX3712
+    [ExpirationMonth] => 07
+    [ExpirationYear] => 26
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+====Start Log July 16, 2025 12:31pm====
+Request pmpro_checkout_before_change_membership_level order:{}
+====Start Log July 16, 2025 12:31pm====
+add_meta_boxes
+====Start Log July 16, 2025 12:31pm====
+add_meta_boxes trans:: Array
+(
+)
+
+====Start Log July 16, 2025 12:57pm====
+pmpro_takbull_webhook_hit:: Array
+(
+    [action] => pmpro_takbull_ipn_handler
+    [uniqId] => d4cc0252-ab1a-441a-9763-fa3b5819bf4b
+    [order_reference] => 
+    [statusCode] => 5
+    [statusDescription] => 
+    [takbullAction] => cancel
+    [transactionInternalNumber] => 
+)
+
+====Start Log July 16, 2025 12:57pm====
+cancel action hit
+====Start Log July 16, 2025 12:57pm====
+cancel_subscription takbull hit PMPro_Subscription Object
+(
+    [id:protected] => 9
+    [user_id:protected] => 26
+    [membership_level_id:protected] => 1
+    [gateway:protected] => takbull
+    [gateway_environment:protected] => sandbox
+    [subscription_transaction_id:protected] => d4cc0252-ab1a-441a-9763-fa3b5819bf4b
+    [status:protected] => cancelled
+    [startdate:protected] => 2025-07-16 12:31:39
+    [enddate:protected] => 2025-07-16 12:57:40
+    [next_payment_date:protected] => 
+    [billing_amount:protected] => 25
+    [cycle_number:protected] => 1
+    [cycle_period:protected] => Month
+    [billing_limit:protected] => 0
+    [trial_amount:protected] => 0
+    [trial_limit:protected] => 5
+    [initial_payment:protected] => 
+    [modified:protected] => 2025-07-16 12:31:39
+)
+
+====Start Log July 16, 2025 12:57pm====
+cancel Order takbull process: d4cc0252-ab1a-441a-9763-fa3b5819bf4b
+====Start Log July 16, 2025 12:57pm====
+cancel Order takbull process: {"headers":{},"body":{"orderId":0,"internalCode":0,"providerCode":0,"doNotRetry":false,"isSubscriptionPayment":false,"saveToken":false,"documentId":0,"amount":0,"depositamount":0,"firstpayment":0,"constantpayment":0,"numberpayments":0,"dealType":0,"orderStatus":0,"tranSactionStatus":0,"applyCommision":false,"commisionFee":0}}
+====Start Log July 16, 2025 12:57pm====
+Subscription cancelled successfully.

@@ -1,0 +1,381 @@
+0000.000 (0) Opened log file at time: Fri, 31 Jan 2025 14:20:34 +0000 on https://dirata.co.il
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.14.1 WP: 6.7.1 PHP: 8.1.31 (litespeed, Linux c4-vm-restored 3.10.0-962.3.2.lve1.5.80.el7.x86_64 #1 SMP Tue May 2 18:31:48 UTC 2023 x86_64) MySQL: 10.2.44-MariaDB-cll-lve (max packet size=1073741824) WPLANG: he_IL Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 5.8M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 12731.1 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2025-01-31 14:20:34
+0000.010 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=aaf77a5ac47a, file_nonce=aaf77a5ac47a begun at=1738333234 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1738333534) in case this run gets aborted
+0000.033 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.034 (0) Checking if we have a zip executable available
+0000.034 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.035 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.036 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.036 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.037 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.037 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1832, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.038 (0) Creation of backups of directories: beginning
+0000.040 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.041 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.120 (0) Total entities for the zip file: 536 directories, 3857 files (0 skipped as non-modified), 88.9 MB
+0001.139 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.157 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.176 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.194 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.211 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.233 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.250 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.268 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.284 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.303 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.305 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.8 MB, 3857 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.439 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1100 files added (on-disk size: 5046.6 KB)
+0003.460 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1200 files added (on-disk size: 5046.6 KB)
+0003.483 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1300 files added (on-disk size: 5046.6 KB)
+0003.502 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1400 files added (on-disk size: 5046.6 KB)
+0003.521 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1500 files added (on-disk size: 5046.6 KB)
+0003.539 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1600 files added (on-disk size: 5046.6 KB)
+0003.557 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1700 files added (on-disk size: 5046.6 KB)
+0003.574 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1800 files added (on-disk size: 5046.6 KB)
+0003.591 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 1900 files added (on-disk size: 5046.6 KB)
+0003.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3857 files batched, 928 (1929) added so far); re-opening (prior size: 5046.6 KB)
+0006.968 (0) A useful amount of data was added after this amount of zip processing: 3.7 s (normalised: 3.7 s, rate: 6933.1 KB/s)
+0006.969 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.6925039291382, normalised_time=3.6924085708388, max_time=6.9682669639587, data points known=1, max_bytes=26214400)
+0006.996 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2000 files added (on-disk size: 9794.1 KB)
+0007.021 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2100 files added (on-disk size: 9794.1 KB)
+0007.039 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2200 files added (on-disk size: 9794.1 KB)
+0007.069 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2300 files added (on-disk size: 9794.1 KB)
+0007.092 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2400 files added (on-disk size: 9794.1 KB)
+0007.094 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 3857 files batched, 478 (2407) added so far); re-opening (prior size: 9794.1 KB)
+0010.710 (0) A useful amount of data was added after this amount of zip processing: 4.4 s (normalised: 4.4 s, rate: 5820.3 KB/s)
+0010.711 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=4.4353458881378, normalised_time=4.3984221223476, max_time=10.710823774338, data points known=1, max_bytes=26214400)
+0010.734 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2500 files added (on-disk size: 14776.9 KB)
+0010.752 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2600 files added (on-disk size: 14776.9 KB)
+0010.775 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2700 files added (on-disk size: 14776.9 KB)
+0010.800 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2800 files added (on-disk size: 14776.9 KB)
+0010.822 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 2900 files added (on-disk size: 14776.9 KB)
+0010.842 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3000 files added (on-disk size: 14776.9 KB)
+0010.864 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3100 files added (on-disk size: 14776.9 KB)
+0010.887 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3200 files added (on-disk size: 14776.9 KB)
+0010.907 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3300 files added (on-disk size: 14776.9 KB)
+0010.928 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3400 files added (on-disk size: 14776.9 KB)
+0010.930 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.6 MB, 3857 files batched, 1001 (3408) added so far); re-opening (prior size: 14776.9 KB)
+0013.616 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3500 files added (on-disk size: 17468.9 KB)
+0013.634 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3600 files added (on-disk size: 17468.9 KB)
+0013.651 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3700 files added (on-disk size: 17468.9 KB)
+0013.667 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.tmp: 3800 files added (on-disk size: 17468.9 KB)
+0016.792 (0) Creating zip file manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.list-temp.tmp)
+0016.826 (0) Successfully created zip file manifest (size: 329520)
+0017.069 (0) Created plugins zip (0) - 21943.9 KB in 17 s (1288.8 KB/s) (sha1: caa2d666b8986950c7d78b50526b55fde2a54004, sha256: a23c05199cf9040dc711a907aa702a1ca2f87f712d65ae6874292acb95d4950b)
+0017.074 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.075 (0) No remote despatch: user chose no remote backup service
+0017.076 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip
+0017.077 (0) Deleting zip manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip.list.tmp)
+0017.078 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0017.081 (0) Beginning creation of dump of themes (split every: 25 MB)
+0017.082 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0017.179 (0) Total entities for the zip file: 44 directories, 442 files (0 skipped as non-modified), 28.5 MB
+0017.197 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.218 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.227 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 442 files batched, 248 (248) added so far); re-opening (prior size: 0 KB)
+0020.433 (0) A useful amount of data was added after this amount of zip processing: 4.2 s (normalised: 4.2 s, rate: 6163.3 KB/s)
+0020.434 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=4.1580259799957, normalised_time=4.1536154255301, max_time=20.433938980103, data points known=1, max_bytes=26214400)
+0020.450 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.tmp: 300 files added (on-disk size: 16479.5 KB)
+0020.472 (0) Zip: backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.tmp: 400 files added (on-disk size: 16479.5 KB)
+0021.785 (0) Creating zip file manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.list-temp.tmp)
+0021.790 (0) Successfully created zip file manifest (size: 29864)
+0021.967 (0) Created themes zip (0) - 19634.6 KB in 4.9 s (4021.1 KB/s) (sha1: 5c84dac0caaa64422584e39fef7fd75dcc3018c1, sha256: 8ea354d90c0ad4eea725b22971db12b8b482ede2a97afe7bab5e594fe9e8f58c)
+0021.969 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.970 (0) No remote despatch: user chose no remote backup service
+0021.970 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip
+0021.972 (0) Deleting zip manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip.list.tmp)
+0021.973 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0021.975 (0) Exclusion option setting (uploads): 
+0021.975 (0) Looking for candidates to backup in: /var/www/vhosts/dirata.co.il/httpdocs/wp-content/uploads
+0021.976 (0) finding files: 2024: adding to list (1)
+0021.976 (0) finding files: 2025: adding to list (2)
+0021.977 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0021.978 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0021.981 (0) Total entities for the zip file: 4 directories, 14 files (0 skipped as non-modified), 10.8 MB
+0022.632 (0) Creating zip file manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-uploads.zip.list-temp.tmp)
+0022.634 (0) Successfully created zip file manifest (size: 905)
+0022.731 (0) Created uploads zip (0) - 10753.3 KB in 0.8 s (14307 KB/s) (sha1: 7ac3bf7cd93bf6ad9643cdf17b07fd2d29208811, sha256: bfebc5636ddc80d1271759aab752bea70d8281b25cc0b6c1637f461648e43b4a)
+0022.736 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.737 (0) No remote despatch: user chose no remote backup service
+0022.738 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-uploads.zip
+0022.740 (0) Deleting zip manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-uploads.zip.list.tmp)
+0022.741 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0022.744 (0) Beginning creation of dump of mu-plugins (split every: 25 MB)
+0022.746 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0022.750 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0022.754 (0) Creating zip file manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-mu-plugins.zip.list-temp.tmp)
+0022.754 (0) Successfully created zip file manifest (size: 102)
+0022.757 (0) Created mu-plugins zip (0) - 2.9 KB in 0 s (304.9 KB/s) (sha1: 0663ae5b2cb49cbc5449e8b9e4108aa971df1bd3, sha256: 337a173a755debb48f5cba4f2edcd79a9112713a22ba31706795a3961a36b9a2)
+0022.759 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.760 (0) No remote despatch: user chose no remote backup service
+0022.761 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-mu-plugins.zip
+0022.762 (0) Deleting zip manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-mu-plugins.zip.list.tmp)
+0022.763 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0022.765 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.766 (0) Exclusion option setting (others): 
+0022.766 (0) Looking for candidates to backup in: /var/www/vhosts/dirata.co.il/httpdocs/wp-content
+0022.767 (0) finding files: themes: skipping: this is the themes directory
+0022.767 (0) finding files: plugins: skipping: this is the plugins directory
+0022.768 (0) finding files: uploads: skipping: this is the uploads directory
+0022.768 (0) finding files: upgrade: adding to list (1)
+0022.768 (0) finding files: advanced-cache.php: adding to list (2)
+0022.769 (0) finding files: cache: adding to list (3)
+0022.769 (0) finding files: wp-rocket-config: adding to list (4)
+0022.770 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0022.771 (0) finding files: object-cache.php: adding to list (5)
+0022.771 (0) finding files: upgrade-temp-backup: adding to list (6)
+0022.772 (0) finding files: updraft: skipping: this is the updraft directory
+0022.772 (0) finding files: languages: adding to list (7)
+0022.773 (0) finding files: index.php: adding to list (8)
+0022.774 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 441, wp-content/plugins/updraftplus/class-updraftplus.php)
+0022.790 (0) Total entities for the zip file: 8 directories, 87 files (0 skipped as non-modified), 3.8 MB
+0023.377 (0) Creating zip file manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-others.zip.list-temp.tmp)
+0023.378 (0) Successfully created zip file manifest (size: 5105)
+0023.389 (0) Created others zip (0) - 1026.3 KB in 0.6 s (1671 KB/s) (sha1: 03c09132426829351fde784281a54b3224803df9, sha256: 4e2d9cec55927cd44edf33812bd8fc31f70c668b02bfc88aa442778117419e67)
+0023.391 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0023.392 (0) No remote despatch: user chose no remote backup service
+0023.393 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-others.zip
+0023.394 (0) Deleting zip manifest (backup_2025-01-31-1420_estate_aaf77a5ac47a-others.zip.list.tmp)
+0023.395 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0023.398 (0) Saving backup status to database (elements: 10)
+0023.400 (0) Beginning creation of database dump (WordPress DB)
+0023.401 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0023.402 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.403 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.403 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.404 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.404 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.405 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/dirata.co.il/:/tmp/) (line 1715, wp-content/plugins/updraftplus/class-updraftplus.php)
+0023.421 (0) Table JTujPt_options: Total expected rows (via COUNT): 348
+0023.422 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.466 (0) Table JTujPt_options: Rows added in this batch (next record: 836): 338 (uncompressed bytes in this segment=1097448) in 0.05 seconds
+0023.470 (0) Table JTujPt_options: finishing file(s) (2, 248 KB)
+0023.474 (0) Table JTujPt_users: Total expected rows (via COUNT): 1
+0023.474 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.476 (0) Table JTujPt_users: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1380) in 0.00 seconds
+0023.478 (0) Table JTujPt_users: finishing file(s) (2, 0.6 KB)
+0023.482 (0) Table JTujPt_usermeta: Total expected rows (via COUNT): 19
+0023.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.484 (0) Table JTujPt_usermeta: Rows added in this batch (next record: 52): 19 (uncompressed bytes in this segment=2445) in 0.00 seconds
+0023.487 (0) Table JTujPt_usermeta: finishing file(s) (2, 1.1 KB)
+0023.492 (0) Table JTujPt_commentmeta: Total expected rows (via COUNT): 0
+0023.493 (0) Table JTujPt_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.00 seconds
+0023.496 (0) Table JTujPt_commentmeta: finishing file(s) (2, 0.4 KB)
+0023.499 (0) Table JTujPt_comments: Total expected rows (via COUNT): 1
+0023.499 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.501 (0) Table JTujPt_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2161) in 0.00 seconds
+0023.503 (0) Table JTujPt_comments: finishing file(s) (2, 0.8 KB)
+0023.508 (0) Table JTujPt_links: Total expected rows (via COUNT): 0
+0023.510 (0) Table JTujPt_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1330) in 0.00 seconds
+0023.512 (0) Table JTujPt_links: finishing file(s) (2, 0.5 KB)
+0023.515 (0) Table JTujPt_postmeta: Total expected rows (via COUNT): 112
+0023.516 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.519 (0) Table JTujPt_postmeta: Rows added in this batch (next record: 134): 112 (uncompressed bytes in this segment=7579) in 0.01 seconds
+0023.522 (0) Table JTujPt_postmeta: finishing file(s) (2, 2.3 KB)
+0023.527 (0) Table JTujPt_posts: Total expected rows (via COUNT): 42
+0023.527 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.531 (0) Table JTujPt_posts: Rows added in this batch (next record: 50): 42 (uncompressed bytes in this segment=26317) in 0.01 seconds
+0023.535 (0) Table JTujPt_posts: finishing file(s) (2, 5.6 KB)
+0023.539 (0) Table JTujPt_term_relationships: Total expected rows (approximate): 9
+0023.542 (0) Table JTujPt_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=835) in 0.00 seconds
+0023.545 (0) Table JTujPt_term_relationships: finishing file(s) (2, 0.4 KB)
+0023.549 (0) Table JTujPt_term_taxonomy: Total expected rows (via COUNT): 93
+0023.550 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.553 (0) Table JTujPt_term_taxonomy: Rows added in this batch (next record: 101): 93 (uncompressed bytes in this segment=4140) in 0.01 seconds
+0023.556 (0) Table JTujPt_term_taxonomy: finishing file(s) (2, 1 KB)
+0023.560 (0) Table JTujPt_termmeta: Total expected rows (via COUNT): 58
+0023.560 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.562 (0) Table JTujPt_termmeta: Rows added in this batch (next record: 63): 58 (uncompressed bytes in this segment=5060) in 0.00 seconds
+0023.565 (0) Table JTujPt_termmeta: finishing file(s) (2, 1.1 KB)
+0023.568 (0) Table JTujPt_terms: Total expected rows (via COUNT): 93
+0023.568 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.570 (0) Table JTujPt_terms: Rows added in this batch (next record: 101): 93 (uncompressed bytes in this segment=4605) in 0.00 seconds
+0023.573 (0) Table JTujPt_terms: finishing file(s) (2, 1.8 KB)
+0023.580 (0) Table JTujPt_actionscheduler_actions: Total expected rows (via COUNT): 2
+0023.580 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.582 (0) Table JTujPt_actionscheduler_actions: Rows added in this batch (next record: 854): 2 (uncompressed bytes in this segment=2133) in 0.00 seconds
+0023.585 (0) Table JTujPt_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0023.589 (0) Table JTujPt_actionscheduler_claims: Total expected rows (via COUNT): 0
+0023.591 (0) Table JTujPt_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0023.593 (0) Table JTujPt_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0023.596 (0) Table JTujPt_actionscheduler_groups: Total expected rows (via COUNT): 2
+0023.597 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.598 (0) Table JTujPt_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=741) in 0.00 seconds
+0023.669 (0) Table JTujPt_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0023.674 (0) Table JTujPt_actionscheduler_logs: Total expected rows (via COUNT): 6
+0023.675 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.676 (0) Table JTujPt_actionscheduler_logs: Rows added in this batch (next record: 2550): 6 (uncompressed bytes in this segment=1383) in 0.00 seconds
+0023.678 (0) Table JTujPt_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0023.682 (0) Table JTujPt_apcm_details: Total expected rows (approximate): 1146
+0023.692 (0) Table JTujPt_apcm_details: Rows added in this batch (next record: 2000): 1112 (uncompressed bytes in this segment=56808) in 0.01 seconds
+0023.695 (0) Table JTujPt_apcm_details: finishing file(s) (2, 7.8 KB)
+0023.698 (0) Table JTujPt_apcm_statistics: Total expected rows (approximate): 573
+0023.706 (0) Table JTujPt_apcm_statistics: Rows added in this batch (next record: 1000): 556 (uncompressed bytes in this segment=48694) in 0.01 seconds
+0023.708 (0) Table JTujPt_apcm_statistics: finishing file(s) (2, 6 KB)
+0023.713 (0) Table JTujPt_estatik_fb_fields: Total expected rows (via COUNT): 0
+0023.714 (0) Table JTujPt_estatik_fb_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1633) in 0.00 seconds
+0023.716 (0) Table JTujPt_estatik_fb_fields: finishing file(s) (2, 0.5 KB)
+0023.719 (0) Table JTujPt_estatik_fb_sections: Total expected rows (via COUNT): 0
+0023.720 (0) Table JTujPt_estatik_fb_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=913) in 0.00 seconds
+0023.722 (0) Table JTujPt_estatik_fb_sections: finishing file(s) (2, 0.4 KB)
+0023.725 (0) Table JTujPt_pmpro_discount_codes: Total expected rows (via COUNT): 0
+0023.726 (0) Table JTujPt_pmpro_discount_codes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.00 seconds
+0023.728 (0) Table JTujPt_pmpro_discount_codes: finishing file(s) (2, 0.4 KB)
+0023.734 (0) Table JTujPt_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0023.736 (0) Table JTujPt_pmpro_discount_codes_levels: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1195) in 0.00 seconds
+0023.740 (0) Table JTujPt_pmpro_discount_codes_levels: finishing file(s) (2, 0.5 KB)
+0023.745 (0) Table JTujPt_pmpro_discount_codes_uses: Total expected rows (via COUNT): 0
+0023.747 (0) Table JTujPt_pmpro_discount_codes_uses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=809) in 0.00 seconds
+0023.750 (0) Table JTujPt_pmpro_discount_codes_uses: finishing file(s) (2, 0.4 KB)
+0023.755 (0) Table JTujPt_pmpro_groups: Total expected rows (via COUNT): 1
+0023.755 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.757 (0) Table JTujPt_pmpro_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=722) in 0.00 seconds
+0023.759 (0) Table JTujPt_pmpro_groups: finishing file(s) (2, 0.4 KB)
+0023.764 (0) Table JTujPt_pmpro_membership_levelmeta: Total expected rows (via COUNT): 0
+0023.765 (0) Table JTujPt_pmpro_membership_levelmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.00 seconds
+0023.768 (0) Table JTujPt_pmpro_membership_levelmeta: finishing file(s) (2, 0.4 KB)
+0023.772 (0) Table JTujPt_pmpro_membership_levels: Total expected rows (via COUNT): 1
+0023.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.774 (0) Table JTujPt_pmpro_membership_levels: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1603) in 0.00 seconds
+0023.778 (0) Table JTujPt_pmpro_membership_levels: finishing file(s) (2, 0.6 KB)
+0023.782 (0) Table JTujPt_pmpro_membership_levels_groups: Total expected rows (via COUNT): 1
+0023.782 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.784 (0) Table JTujPt_pmpro_membership_levels_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.00 seconds
+0023.786 (0) Table JTujPt_pmpro_membership_levels_groups: finishing file(s) (2, 0.4 KB)
+0023.791 (0) Table JTujPt_pmpro_membership_ordermeta: Total expected rows (via COUNT): 0
+0023.793 (0) Table JTujPt_pmpro_membership_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0023.796 (0) Table JTujPt_pmpro_membership_ordermeta: finishing file(s) (2, 0.4 KB)
+0023.799 (0) Table JTujPt_pmpro_membership_orders: Total expected rows (via COUNT): 0
+0023.800 (0) Table JTujPt_pmpro_membership_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3327) in 0.00 seconds
+0023.803 (0) Table JTujPt_pmpro_membership_orders: finishing file(s) (2, 0.7 KB)
+0023.806 (0) Table JTujPt_pmpro_memberships_categories: Total expected rows (approximate): 0
+0023.808 (0) Table JTujPt_pmpro_memberships_categories: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0023.810 (0) Table JTujPt_pmpro_memberships_categories: finishing file(s) (2, 0.4 KB)
+0023.813 (0) Table JTujPt_pmpro_memberships_pages: Total expected rows (approximate): 0
+0023.814 (0) Table JTujPt_pmpro_memberships_pages: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=723) in 0.00 seconds
+0023.816 (0) Table JTujPt_pmpro_memberships_pages: finishing file(s) (2, 0.4 KB)
+0023.819 (0) Table JTujPt_pmpro_memberships_users: Total expected rows (via COUNT): 0
+0023.820 (0) Table JTujPt_pmpro_memberships_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1390) in 0.00 seconds
+0023.823 (0) Table JTujPt_pmpro_memberships_users: finishing file(s) (2, 0.5 KB)
+0023.827 (0) Table JTujPt_pmpro_subscriptionmeta: Total expected rows (via COUNT): 0
+0023.828 (0) Table JTujPt_pmpro_subscriptionmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0023.835 (0) Table JTujPt_pmpro_subscriptionmeta: finishing file(s) (2, 0.4 KB)
+0023.840 (0) Table JTujPt_pmpro_subscriptions: Total expected rows (via COUNT): 0
+0023.842 (0) Table JTujPt_pmpro_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1620) in 0.00 seconds
+0023.845 (0) Table JTujPt_pmpro_subscriptions: finishing file(s) (2, 0.6 KB)
+0023.855 (0) Table JTujPt_wpr_above_the_fold: Total expected rows (via COUNT): 0
+0023.856 (0) Table JTujPt_wpr_above_the_fold: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1157) in 0.01 seconds
+0023.861 (0) Table JTujPt_wpr_above_the_fold: finishing file(s) (2, 0.5 KB)
+0023.867 (0) Table JTujPt_wpr_image_optimization: Total expected rows (via COUNT): 0
+0023.868 (0) Table JTujPt_wpr_image_optimization: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1369) in 0.00 seconds
+0023.871 (0) Table JTujPt_wpr_image_optimization: finishing file(s) (2, 0.5 KB)
+0023.876 (0) Table JTujPt_wpr_rocket_cache: Total expected rows (via COUNT): 7
+0023.876 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.878 (0) Table JTujPt_wpr_rocket_cache: Rows added in this batch (next record: 16): 7 (uncompressed bytes in this segment=1719) in 0.00 seconds
+0023.881 (0) Table JTujPt_wpr_rocket_cache: finishing file(s) (2, 0.7 KB)
+0023.886 (0) Table JTujPt_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0023.888 (0) Table JTujPt_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1682) in 0.00 seconds
+0023.891 (0) Table JTujPt_wpr_rucss_used_css: finishing file(s) (2, 0.6 KB)
+0023.891 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/vhosts/dirata.co.il/httpdocs/wp-content/updraft/backup_2025-01-31-1420_estate_aaf77a5ac47a-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0023.892 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_options.table.tmpr837.gz (1/38/fopen): adding to final database dump
+0023.902 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_options.table.gz (2/38/fopen): adding to final database dump
+0023.903 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_users.table.tmpr3.gz (3/38/fopen): adding to final database dump
+0023.903 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_users.table.gz (4/38/fopen): adding to final database dump
+0023.904 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_usermeta.table.tmpr53.gz (5/38/fopen): adding to final database dump
+0023.905 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_usermeta.table.gz (6/38/fopen): adding to final database dump
+0023.905 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_commentmeta.table.tmpr0.gz (7/38/fopen): adding to final database dump
+0023.906 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_commentmeta.table.gz (8/38/fopen): adding to final database dump
+0023.906 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_comments.table.tmpr2.gz (9/38/fopen): adding to final database dump
+0023.907 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_comments.table.gz (10/38/fopen): adding to final database dump
+0023.907 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_links.table.tmpr0.gz (11/38/fopen): adding to final database dump
+0023.908 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_links.table.gz (12/38/fopen): adding to final database dump
+0023.908 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_postmeta.table.tmpr135.gz (13/38/fopen): adding to final database dump
+0023.909 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_postmeta.table.gz (14/38/fopen): adding to final database dump
+0023.910 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_posts.table.tmpr51.gz (15/38/fopen): adding to final database dump
+0023.910 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_posts.table.gz (16/38/fopen): adding to final database dump
+0023.911 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_term_relationships.table.tmpr100001.gz (17/38/fopen): adding to final database dump
+0023.912 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_term_relationships.table.gz (18/38/fopen): adding to final database dump
+0023.912 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_term_taxonomy.table.tmpr102.gz (19/38/fopen): adding to final database dump
+0023.913 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_term_taxonomy.table.gz (20/38/fopen): adding to final database dump
+0023.914 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_termmeta.table.tmpr64.gz (21/38/fopen): adding to final database dump
+0023.914 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_termmeta.table.gz (22/38/fopen): adding to final database dump
+0023.915 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_terms.table.tmpr102.gz (23/38/fopen): adding to final database dump
+0023.916 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_terms.table.gz (24/38/fopen): adding to final database dump
+0023.916 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_actions.table.tmpr855.gz (25/38/fopen): adding to final database dump
+0023.916 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_actions.table.gz (26/38/fopen): adding to final database dump
+0023.917 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_claims.table.tmpr0.gz (27/38/fopen): adding to final database dump
+0023.917 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_claims.table.gz (28/38/fopen): adding to final database dump
+0023.918 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_groups.table.tmpr3.gz (29/38/fopen): adding to final database dump
+0023.919 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_groups.table.gz (30/38/fopen): adding to final database dump
+0023.920 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_logs.table.tmpr2551.gz (31/38/fopen): adding to final database dump
+0023.923 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_actionscheduler_logs.table.gz (32/38/fopen): adding to final database dump
+0023.923 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_apcm_details.table.tmpr2001.gz (33/38/fopen): adding to final database dump
+0023.924 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_apcm_details.table.gz (34/38/fopen): adding to final database dump
+0023.924 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_apcm_statistics.table.tmpr1001.gz (35/38/fopen): adding to final database dump
+0023.925 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_apcm_statistics.table.gz (36/38/fopen): adding to final database dump
+0023.925 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_estatik_fb_fields.table.tmpr0.gz (37/38/fopen): adding to final database dump
+0023.926 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_estatik_fb_fields.table.gz (38/38/fopen): adding to final database dump
+0023.926 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_estatik_fb_sections.table.tmpr0.gz (39/38/fopen): adding to final database dump
+0023.927 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_estatik_fb_sections.table.gz (40/38/fopen): adding to final database dump
+0023.927 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes.table.tmpr0.gz (41/38/fopen): adding to final database dump
+0023.928 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes.table.gz (42/38/fopen): adding to final database dump
+0023.928 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes_levels.table.tmpr1.gz (43/38/fopen): adding to final database dump
+0023.931 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes_levels.table.gz (44/38/fopen): adding to final database dump
+0023.932 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes_uses.table.tmpr0.gz (45/38/fopen): adding to final database dump
+0023.933 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_discount_codes_uses.table.gz (46/38/fopen): adding to final database dump
+0023.933 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_groups.table.tmpr2.gz (47/38/fopen): adding to final database dump
+0023.934 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_groups.table.gz (48/38/fopen): adding to final database dump
+0023.935 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levelmeta.table.tmpr0.gz (49/38/fopen): adding to final database dump
+0023.936 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levelmeta.table.gz (50/38/fopen): adding to final database dump
+0023.937 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levels.table.tmpr2.gz (51/38/fopen): adding to final database dump
+0023.938 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levels.table.gz (52/38/fopen): adding to final database dump
+0023.938 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levels_groups.table.tmpr2.gz (53/38/fopen): adding to final database dump
+0023.939 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_levels_groups.table.gz (54/38/fopen): adding to final database dump
+0023.940 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_ordermeta.table.tmpr0.gz (55/38/fopen): adding to final database dump
+0023.941 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_ordermeta.table.gz (56/38/fopen): adding to final database dump
+0023.942 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_orders.table.tmpr0.gz (57/38/fopen): adding to final database dump
+0023.943 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_membership_orders.table.gz (58/38/fopen): adding to final database dump
+0023.944 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_categories.table.tmpr1.gz (59/38/fopen): adding to final database dump
+0023.945 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_categories.table.gz (60/38/fopen): adding to final database dump
+0023.945 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_pages.table.tmpr1.gz (61/38/fopen): adding to final database dump
+0023.947 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_pages.table.gz (62/38/fopen): adding to final database dump
+0023.948 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_users.table.tmpr0.gz (63/38/fopen): adding to final database dump
+0023.949 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_memberships_users.table.gz (64/38/fopen): adding to final database dump
+0023.949 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_subscriptionmeta.table.tmpr0.gz (65/38/fopen): adding to final database dump
+0023.950 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_subscriptionmeta.table.gz (66/38/fopen): adding to final database dump
+0023.951 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_subscriptions.table.tmpr0.gz (67/38/fopen): adding to final database dump
+0023.951 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_pmpro_subscriptions.table.gz (68/38/fopen): adding to final database dump
+0023.952 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_above_the_fold.table.tmpr0.gz (69/38/fopen): adding to final database dump
+0023.952 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_above_the_fold.table.gz (70/38/fopen): adding to final database dump
+0023.953 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_image_optimization.table.tmpr0.gz (71/38/fopen): adding to final database dump
+0023.954 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_image_optimization.table.gz (72/38/fopen): adding to final database dump
+0023.954 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_rocket_cache.table.tmpr17.gz (73/38/fopen): adding to final database dump
+0023.955 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_rocket_cache.table.gz (74/38/fopen): adding to final database dump
+0023.956 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_rucss_used_css.table.tmpr0.gz (75/38/fopen): adding to final database dump
+0023.956 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db-table-JTujPt_wpr_rucss_used_css.table.gz (76/38/fopen): adding to final database dump
+0023.961 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db.gz: finished writing out complete database file (289.1 KB)
+0024.000 (0) Total database tables backed up: 38 (backup_2025-01-31-1420_estate_aaf77a5ac47a-db.gz, size: 296113, sha1: c56fa85ac2a0f10df91b3e2260f76fd8245c9221, sha256: a16692c885b63f31a79c18ad3a913ac8cc7e9b47e75d70a3e2f84ab9889f5405)
+0024.004 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-plugins.zip: plugins: This file has already been successfully uploaded
+0024.004 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-themes.zip: themes: This file has already been successfully uploaded
+0024.004 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-uploads.zip: uploads: This file has already been successfully uploaded
+0024.005 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0024.005 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-others.zip: others: This file has already been successfully uploaded
+0024.006 (0) backup_2025-01-31-1420_estate_aaf77a5ac47a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0024.006 (0) Saving backup history. Total backup size: 52.4 MB
+0024.008 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0024.010 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0024.010 (0) No remote despatch: user chose no remote backup service
+0024.011 (0) Recording as successfully uploaded: backup_2025-01-31-1420_estate_aaf77a5ac47a-db.gz
+0024.013 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0024.013 (0) Resume backup (aaf77a5ac47a, 0): finish run
+0024.014 (0) Decremented the semaphore (fd) by 1
+0024.015 (0) Semaphore (fd) unlocked
+0024.016 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0024.018 (0) No email will/can be sent - the user has not configured an email address.
+0024.019 (0) The backup succeeded and is now complete

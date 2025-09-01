@@ -1,0 +1,18 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_208_1264" fill="white">
+<path d="M0.5 8C0.5 8.55228 0.947715 9 1.5 9H8.5C9.05229 9 9.5 8.55228 9.5 8V4.5C9.5 2.01472 7.48528 0 5 0C2.51472 0 0.5 2.01472 0.5 4.5V8Z"/>
+</mask>
+<path d="M0.5 8C0.5 8.55228 0.947715 9 1.5 9H8.5C9.05229 9 9.5 8.55228 9.5 8V4.5C9.5 2.01472 7.48528 0 5 0C2.51472 0 0.5 2.01472 0.5 4.5V8Z" stroke="#20315F" stroke-width="3" stroke-linejoin="round" mask="url(#path-1-inside-1_208_1264)"/>
+<mask id="path-2-inside-2_208_1264" fill="white">
+<rect width="9" height="9" rx="1" transform="matrix(1 0 0 -1 0.5 20)"/>
+</mask>
+<rect width="9" height="9" rx="1" transform="matrix(1 0 0 -1 0.5 20)" stroke="#20315F" stroke-width="3" stroke-linejoin="round" mask="url(#path-2-inside-2_208_1264)"/>
+<mask id="path-3-inside-3_208_1264" fill="white">
+<path d="M11.5 8C11.5 8.55228 11.9477 9 12.5 9H19.5C20.0523 9 20.5 8.55228 20.5 8V4.5C20.5 2.01472 18.4853 0 16 0C13.5147 0 11.5 2.01472 11.5 4.5V8Z"/>
+</mask>
+<path d="M11.5 8C11.5 8.55228 11.9477 9 12.5 9H19.5C20.0523 9 20.5 8.55228 20.5 8V4.5C20.5 2.01472 18.4853 0 16 0C13.5147 0 11.5 2.01472 11.5 4.5V8Z" stroke="#20315F" stroke-width="3" stroke-linejoin="round" mask="url(#path-3-inside-3_208_1264)"/>
+<mask id="path-4-inside-4_208_1264" fill="white">
+<rect width="9" height="9" rx="1" transform="matrix(1 0 0 -1 11.5 20)"/>
+</mask>
+<rect width="9" height="9" rx="1" transform="matrix(1 0 0 -1 11.5 20)" stroke="#20315F" stroke-width="3" stroke-linejoin="round" mask="url(#path-4-inside-4_208_1264)"/>
+</svg>
